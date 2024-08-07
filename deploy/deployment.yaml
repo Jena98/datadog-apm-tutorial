@@ -30,7 +30,7 @@ spec:
       restartPolicy: Always             
       containers:
         - name: datadog-agent-test
-          image: 031393287108.dkr.ecr.ap-northeast-2.amazonaws.com/devops-test:v0.1
+          image: 031393287108.dkr.ecr.ap-northeast-2.amazonaws.com/devops-test:latest
           imagePullPolicy: Always      
           ports:
           - containerPort: 8080
